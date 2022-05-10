@@ -4,60 +4,62 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus II License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
 	(rect 248 304 432 320)
-	(text "INPUT" (rect 141 0 170 9)(font "Arial" (font_size 6)))
-	(text "Input_To_Ground" (rect 5 0 90 10)(font "Arial" ))
+	(text "INPUT" (rect 141 0 169 10)(font "Arial" (color 0 0 0)(font_size 6)))
+	(text "Input_To_Ground" (rect 5 0 88 12)(font "Arial" (color 0 0 0)))
 	(pt 184 8)
 	(drawing
-		(line (pt 100 12)(pt 125 12))
-		(line (pt 100 4)(pt 125 4))
-		(line (pt 129 8)(pt 184 8))
-		(line (pt 100 12)(pt 100 4))
-		(line (pt 125 4)(pt 129 8))
-		(line (pt 125 12)(pt 129 8))
+		(line (pt 100 12)(pt 125 12)(color 0 0 0))
+		(line (pt 100 4)(pt 125 4)(color 0 0 0))
+		(line (pt 129 8)(pt 184 8)(color 0 0 0))
+		(line (pt 100 12)(pt 100 4)(color 0 0 0))
+		(line (pt 125 4)(pt 129 8)(color 0 0 0))
+		(line (pt 125 12)(pt 129 8)(color 0 0 0))
 	)
-	(text "VCC" (rect 144 7 165 16)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 144 7 164 17)(font "Arial" (color 0 0 0)(font_size 6)))
 )
 (symbol
 	(rect 464 352 496 384)
-	(text "GND" (rect 8 16 30 25)(font "Arial" (font_size 6)))
-	(text "inst" (rect 3 21 20 31)(font "Arial" )(invisible))
+	(text "GND" (rect 8 16 29 26)(font "Arial" (color 0 0 0)(font_size 6)))
+	(text "inst" (rect 3 21 20 33)(font "Arial" (color 0 0 0))(invisible))
 	(port
 		(pt 16 0)
 		(output)
-		(text "1" (rect 18 0 26 11)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 18 0 26 11)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (color 0 0 0)(bold))(invisible))
 		(line (pt 16 8)(pt 16 0))
 	)
 	(drawing
-		(line (pt 8 8)(pt 16 16))
-		(line (pt 16 16)(pt 24 8))
-		(line (pt 8 8)(pt 24 8))
+		(line (pt 8 8)(pt 16 16)(color 0 0 0))
+		(line (pt 16 16)(pt 24 8)(color 0 0 0))
+		(line (pt 8 8)(pt 24 8)(color 0 0 0))
 	)
 )
 (connector
 	(pt 432 312)
 	(pt 480 312)
+	(color 0 0 0)
 )
 (connector
 	(pt 480 312)
 	(pt 480 352)
+	(color 0 0 0)
 )
